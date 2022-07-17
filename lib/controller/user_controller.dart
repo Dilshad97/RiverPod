@@ -2,7 +2,7 @@
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../clinet/client_service.dart';
+import '../clinet_service/client_service.dart';
 import '../model/user.dart';
 final apiProvider = Provider<ApiServices>((ref)=>ApiServices());
 

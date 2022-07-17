@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:phoneauth/controller/user_controller.dart';
 import 'package:phoneauth/screen/seel_all_screen.dart';
-import '../riverpod_controller/user_controller.dart';
 
 class UserHoookScreen extends ConsumerWidget {
   const UserHoookScreen({Key? key}) : super(key: key);
